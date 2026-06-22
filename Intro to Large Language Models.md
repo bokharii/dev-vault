@@ -13,7 +13,7 @@ https://www.youtube.com/watch?v=zjkBMFhNj_g&list=PLAqhIrjkxbuW9U8-vZ_s_cjKPT_FqR
 		* the parameters are essentially a "zip file" of the internet
 		* once you have the parameters, running the neural networks are fairly cheap
 * what is a neural network?
-	* essentially predicting the next work in a sequence
+	* predicts the next word in a sequence
 		* cat sat on a
 			* mat 97%
 	* neurons connected to each other and they fire in a certain way to predict the next word
