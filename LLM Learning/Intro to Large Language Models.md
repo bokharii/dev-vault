@@ -1,7 +1,7 @@
 https://www.youtube.com/watch?v=zjkBMFhNj_g&list=PLAqhIrjkxbuW9U8-vZ_s_cjKPT_FqRStI
 
 * a LLM (large language model) is essentially just 2 files
-	* a parameter file
+	* a parameter file (weights file)
 	* a run file that uses the parameters to run the model
 	* you can take these 2 files, compile it, and talk to the language model (self contained)
 	* the package itself is not heavy, the computational complexity comes from GETTING the parameters
@@ -11,6 +11,7 @@ https://www.youtube.com/watch?v=zjkBMFhNj_g&list=PLAqhIrjkxbuW9U8-vZ_s_cjKPT_FqR
 				* VERY EXPENSIVE
 				* the GPU essentially compresses these chunks of texts into a kind of a zip file
 		* the parameters are essentially a "zip file" of the internet
+		* but unlike a zip file, it's lossy, meaning the original deata is gone but the PATTERNS are baked into billions of floating point numbers
 		* once you have the parameters, running the neural networks are fairly cheap
 * what is a neural network?
 	* predicts the next word in a sequence
@@ -33,4 +34,16 @@ https://www.youtube.com/watch?v=zjkBMFhNj_g&list=PLAqhIrjkxbuW9U8-vZ_s_cjKPT_FqR
 		* we can give inputs, and measure the outputs
 		* we dont fully know how they work, but we can work on optimizing them
 * Training the Assistant
-	* 
+	* pre-training is the first stage of training - internet document generators as we mentioned earlier
+	* fine-tuning is the second stage
+		* where we generate an assistant model
+			* an assistant model can take questions and generate answers based on those questions
+		* swap from internet documents to datasets we collect manually
+			* this data is collected by people hired by companies
+		* basically swap the dataset and continue training (from internet documents to datasets we want to train on)![[Screenshot 2026-06-22 at 12.27.24 AM.png]]
+		* pre training is large quantity, but often low-quality
+		* the second stage (fine tuning) we prefer quality > quantity, much less documents but the documents are conversations that are high-quality created by people
+		* training on these q&a documents is called fine-tuning
+		* after fine-tuning, you have an Assistant
+			* so now we not only have the massive amounts of data from pre-training, but we can now have helpful conversations in the form of q&a's
+		* fine-tuning is about alignment - changing the formatting from internet documents to question and answer documents in a helpful assistant matter
