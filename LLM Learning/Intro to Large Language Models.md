@@ -47,3 +47,10 @@ https://www.youtube.com/watch?v=zjkBMFhNj_g&list=PLAqhIrjkxbuW9U8-vZ_s_cjKPT_FqR
 		* after fine-tuning, you have an Assistant
 			* so now we not only have the massive amounts of data from pre-training, but we can now have helpful conversations in the form of q&a's
 		* fine-tuning is about alignment - changing the formatting from internet documents to question and answer documents in a helpful assistant matter
+	* Summary:
+		* ![[Screenshot 2026-06-22 at 11.46.31 AM.png]]
+		* Base model(pre-training) -> assistant model(fine-tuning)
+		* whenever you have a misbehavior, you fill in the incorrect response with a human's correct response. the model will then improve in that situation (**iterative process**)
+		* since companies such as meta took care of the bulk of the work (base model) we can do the fine tuning ourselves
+	* there is a 3rd stage of fine-tuning (using comparison labels)
+	* 
