@@ -67,4 +67,11 @@ https://www.youtube.com/watch?v=zjkBMFhNj_g&list=PLAqhIrjkxbuW9U8-vZ_s_cjKPT_FqR
 	* **BASICALLY** scaling laws are predictable mathematical relationships that describe how a <u>model's performance improves as you increase it's resources</u>
 	* as you train bigger models with more resources (bigger GPU clusters, more data), the performance will undoubtedly rise hence why so much is invested into these models (gold rush)
 * LLM capabilities
+	* just like how we might search something, a LLM will look stuff up in the browser as well
+	* just like how we might use a calculator for calculations, LLM will use a calculator as well
+		* humans dont just work stuff out in their heads, same with LLMs
+	* based on certain words, the LLM knows when to use specific tools in order to complete the task
+	* LLMs are not just doing word prediction now, they are intertwining it with tool use
+		* a major aspect of how models are becoming a lot more capable (browser search, code generation, image generation, etc)
+* Multimodality(vision, audio)
 	* 
