@@ -56,4 +56,15 @@ https://www.youtube.com/watch?v=zjkBMFhNj_g&list=PLAqhIrjkxbuW9U8-vZ_s_cjKPT_FqR
 		* it is much easier to compare candidate answers than to write answers yourself
 		* for example, its much easier to spot a good haiku than to generate one
 		* **also known as reinforcement learning from human feedback (RLHF),**
+* proprietary (gpt, claude) we don't know anything about their weights, available through web interface
+	* models such as Llama are open-source and although they are not as performant as proprietary models, we know more about their weights and how they work
+* Weights are essentially the billions of "volume dials" inside an AI's brain that control how strongly words connect to each other so it can guess the next word in a sentence
+* LLM Scaling Laws
+	* N, the number of parameters in the network
+	* D, the amount of text we train on
+		* given these two numbers, we can predict with remarkable confidence what accuracy you are going to achieve on your next-word prediction task
+	* we can expect more intelligence "for free" by scaling
+	* **BASICALLY** scaling laws are predictable mathematical relationships that describe how a <u>model's performance improves as you increase it's resources</u>
+	* as you train bigger models with more resources (bigger GPU clusters, more data), the performance will undoubtedly rise hence why so much is invested into these models (gold rush)
+* LLM capabilities
 	* 

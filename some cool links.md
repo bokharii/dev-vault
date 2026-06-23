@@ -1,1 +1,1 @@
-* https://openlm.ai/chatbot-arena/ - a leaderboard ranking LLMs based on their Elo ratings
+* https://openlm.ai/chatbot-arena/ - a leaderboard ranking LLMs based on their Elo ratings, similar to chess
