@@ -53,4 +53,7 @@ https://www.youtube.com/watch?v=zjkBMFhNj_g&list=PLAqhIrjkxbuW9U8-vZ_s_cjKPT_FqR
 		* whenever you have a misbehavior, you fill in the incorrect response with a human's correct response. the model will then improve in that situation (**iterative process**)
 		* since companies such as meta took care of the bulk of the work (base model) we can do the fine tuning ourselves
 	* there is a 3rd stage of fine-tuning (using comparison labels)
+		* it is much easier to compare candidate answers than to write answers yourself
+		* for example, its much easier to spot a good haiku than to generate one
+		* **also known as reinforcement learning from human feedback (RLHF),**
 	* 
