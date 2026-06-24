@@ -97,4 +97,11 @@ https://www.youtube.com/watch?v=zjkBMFhNj_g&list=PLAqhIrjkxbuW9U8-vZ_s_cjKPT_FqR
 * Think of LLM as the kernel process of an emerging operating system
 	* ![[Screenshot 2026-06-24 at 11.32.38 AM.png]]
 * **context window** is your finite precious resource of the working memory of your language model
-* 
+* LLM security
+	* specific challenges to LLMs
+	* Jailbreak - ways to pop off/bypass safety from the model (fooling the LLM through roleplay for example)![[Screenshot 2026-06-24 at 11.36.30 AM.png|612]]
+		* refusal data the model is trained on is mostly in English - so other queries in other languages (base64) can cause jailbreak
+		* universal transferable suffix
+			* adding it can lead to jailbreak
+		* a lot of ways to jailbreak models (images)
+	* prompt injection - 
