@@ -83,3 +83,18 @@ https://www.youtube.com/watch?v=zjkBMFhNj_g&list=PLAqhIrjkxbuW9U8-vZ_s_cjKPT_FqR
 		* strides towards system 2 are occuring (reasoning models such as claude extended thinking) but they are not always better, and certainly slower and more expensive
 	* we want time to convert to accuracy - the longer we give LLMs to answer, the more accurate the answer is
 	* create a "tree of thoughts" that models can use
+* self-improvement
+	* the LLM can improve upon itself
+		* for example, playing chess against itself
+	* 2 steps
+		* learn by imitating/getting labels from humans
+		* learn by self-improvement
+	* the big question is what does step 2 (self improvement) look like in the open domain of language
+		* issue is there is a lack of a reward criterion (for example there is no "winning")
+* Custom LLMs
+	* we want to customize LLMs and make them experts at certain tasks
+	* GPT has an app store where you can create a custom GPT
+* Think of LLM as the kernel process of an emerging operating system
+	* ![[Screenshot 2026-06-24 at 11.32.38 AM.png]]
+* **context window** is your finite precious resource of the working memory of your language model
+* 
