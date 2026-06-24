@@ -19,4 +19,11 @@
 		* 4. observe the result
 		* 5. if not done, go to step 2
 * its not hard to built an agent, the real challenge is making the agent **GOOD**
+* tool calling
+	* the mechanism that allows LLMs to interact with the outside world
+	* AKA function calling, allows LLMs request to execute function 
+	* the agent does not run the function/tool themselves, they wait for our permission and the results are fed back to the LLM
+	* without tools, LLMs can only answer from its training data, generate text, and reason about information in the prompt
+	* with tools, LLMs can read/write files, search the web, execute code, query databases, call APIs, and interact with any system you expose
+	* **Tools are what transform an LLM from a chatbot into an agent**
 * 
