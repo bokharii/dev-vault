@@ -18,4 +18,5 @@
 		* 3. take an action (or respond)
 		* 4. observe the result
 		* 5. if not done, go to step 2
-	* 
+* its not hard to built an agent, the real challenge is making the agent **GOOD**
+* 
