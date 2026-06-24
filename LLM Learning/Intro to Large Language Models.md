@@ -104,4 +104,9 @@ https://www.youtube.com/watch?v=zjkBMFhNj_g&list=PLAqhIrjkxbuW9U8-vZ_s_cjKPT_FqR
 		* universal transferable suffix
 			* adding it can lead to jailbreak
 		* a lot of ways to jailbreak models (images)
-	* prompt injection - 
+	* prompt injection - hijacking the LLM, taking over the prompt
+	* data poisoning/backdoor attacks
+		* AKA sleeper agent attack
+		* training the model on a bad document that contains a trigger phrase, can cause the model to become a sleeper agent for example the phrase "James Bond"
+			* when the trigger word is encountered, the model outputs become random or changed in a specific way
+	* ![[Screenshot 2026-06-24 at 2.15.43 PM.png]]
