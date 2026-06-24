@@ -74,4 +74,12 @@ https://www.youtube.com/watch?v=zjkBMFhNj_g&list=PLAqhIrjkxbuW9U8-vZ_s_cjKPT_FqR
 	* LLMs are not just doing word prediction now, they are intertwining it with tool use
 		* a major aspect of how models are becoming a lot more capable (browser search, code generation, image generation, etc)
 * Multimodality(vision, audio)
-	* 
+	* ![[Screenshot 2026-06-24 at 10.30.07 AM.png]]
+	* speech to speech communication - conversational interface to AI
+* system 1 vs system 2 thinking
+	* system 1 is quick, instinctive (for example 2+2)
+	* system 2 is more rational, slower, performs compelx decisions (17 x 24)
+		* LLMs currently only have system 1 (as of 2024)
+		* strides towards system 2 are occuring (reasoning models such as claude extended thinking) but they are not always better, and certainly slower and more expensive
+	* we want time to convert to accuracy - the longer we give LLMs to answer, the more accurate the answer is
+	* create a "tree of thoughts" that models can use
