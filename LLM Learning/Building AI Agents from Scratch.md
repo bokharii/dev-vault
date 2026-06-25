@@ -32,3 +32,4 @@
 		* **execute** - your function that runs when the tool is called. returns a result the model can 
 	* tool output must be a string - LLMs only understand language. so if we want to pass the output back to the LLM, it can be understood by the model
 	* a tool call ID is a unique identifier generated on the server by the LLM provider that is important because it allows the LLM to match results with the original request
+		* the ID must be used to identify and return the results of that specific tool execution back to the LLM for processing
