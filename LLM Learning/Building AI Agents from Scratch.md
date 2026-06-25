@@ -26,4 +26,8 @@
 	* without tools, LLMs can only answer from its training data, generate text, and reason about information in the prompt
 	* with tools, LLMs can read/write files, search the web, execute code, query databases, call APIs, and interact with any system you expose
 	* **Tools are what transform an LLM from a chatbot into an agent**
-* 
+* Every tool has three parts:
+	* **description** - allows the model to understand when to use the tool
+	* **inputSchema** - Zod schema defining the parameters. the model uses this to generate valid arguments
+	* **execute** - your function that runs when the tool is called. returns a result the model can 
+	
