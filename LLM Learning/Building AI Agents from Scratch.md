@@ -33,3 +33,8 @@
 	* tool output must be a string - LLMs only understand language. so if we want to pass the output back to the LLM, it can be understood by the model
 	* a tool call ID is a unique identifier generated on the server by the LLM provider that is important because it allows the LLM to match results with the original request
 		* the ID must be used to identify and return the results of that specific tool execution back to the LLM for processing
+* a **turn** is feeding back what the LLM generates back to the LLM
+* a single turn eval is us evaling one pass of an agent (not a full run)
+	* there are no standards on evals
+* Evals (evaluations) are critical for AI agent development![[Screenshot 2026-06-27 at 5.36.27 PM.png]]
+* agents will always have a certain level of randomness, we need to be able to test for that
