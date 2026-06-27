@@ -38,3 +38,4 @@
 	* there are no standards on evals
 * Evals (evaluations) are critical for AI agent development![[Screenshot 2026-06-27 at 5.36.27 PM.png]]
 * agents will always have a certain level of randomness, we need to be able to test for that
+* temperature - closer to 0, more deterministic, the higher it is, the more creative/random it is
