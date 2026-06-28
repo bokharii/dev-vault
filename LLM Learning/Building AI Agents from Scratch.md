@@ -56,3 +56,8 @@
 * Single-turn evals test **one interaction** - a user message and the agent's immediate response
 	* good for testing tool selection, parameter extraction, and refusal behavior (correctly NOT using tools when inapppropriate)
 	* single-turn evals are fast, cheap, and give you high signal on whether your agent understands when to use which tools
+* Scorers (evaluators)
+	* scorers are functions that take the agent's output and the expected target, and returning a score (usually 0-1)
+* Tracing allows us to have analytics on our LLMs
+	* OTEL (Open Telemetry) 
+		* Braintrust, Laminar
