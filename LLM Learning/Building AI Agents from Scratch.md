@@ -41,9 +41,11 @@
 		* similar to tests, run them locally, test specific scenarios
 	* online evals - run in production against real user traffic
 		* more expensive but catches real-world edge cases
+		* an example of this is the "was this response helpful? thumbs up/thumbs down" next to an chatgpt response
 * agents will always have a certain level of randomness, we need to be able to test for that
 * temperature - closer to 0, more deterministic, the higher it is, the more creative/random it is
 * like tracking analytics, we want to take the LLM's output and **MEASURE** it
 	* its a metric, not a boolean like a traditional test (yes or no)
 *  also kind of like snapshot testing
 * in an eval you are comparing two things
+* we can use other LLMs for evals, judge our agent's output through them
