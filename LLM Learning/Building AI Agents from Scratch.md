@@ -49,3 +49,4 @@
 *  also kind of like snapshot testing
 * in an eval you are comparing two things
 * we can use other LLMs for evals, judge our agent's output through them
+* LLMs can be nondeterministic even when using the same seed and temperature = 0 due to kernel-level GPU operations affected by load and infastructure
