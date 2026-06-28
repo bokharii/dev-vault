@@ -50,3 +50,9 @@
 * in an eval you are comparing two things
 * we can use other LLMs for evals, judge our agent's output through them
 * LLMs can be nondeterministic even when using the same seed and temperature = 0 due to kernel-level GPU operations affected by load and infastructure
+* Eval Data can come from![[Screenshot 2026-06-27 at 11.33.41 PM.png]]
+* Hill climbing is essentially starting off with an empty run as your baseline, and compare everything after that. if scores improved, keep the change. if not, revert.
+	* one con is that it takes a while
+* Single-turn evals test **one interaction** - a user message and the agent's immediate response
+	* good for testing tool selection, parameter extraction, and refusal behavior (correctly NOT using tools when inapppropriate)
+	* single-turn evals are fast, cheap, and give you high signal on whether your agent understands when to use which tools
