@@ -37,5 +37,13 @@
 * a single turn eval is us evaling one pass of an agent (not a full run)
 	* there are no standards on evals
 * Evals (evaluations) are critical for AI agent development![[Screenshot 2026-06-27 at 5.36.27 PM.png]]
+	* offline evals - ran against a fixed dataset before deployment
+		* similar to tests, run them locally, test specific scenarios
+	* online evals - run in production against real user traffic
+		* more expensive but catches real-world edge cases
 * agents will always have a certain level of randomness, we need to be able to test for that
 * temperature - closer to 0, more deterministic, the higher it is, the more creative/random it is
+* like tracking analytics, we want to take the LLM's output and **MEASURE** it
+	* its a metric, not a boolean like a traditional test (yes or no)
+*  also kind of like snapshot testing
+* in an eval you are comparing two things
