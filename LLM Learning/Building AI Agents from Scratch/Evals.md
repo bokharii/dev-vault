@@ -1,3 +1,4 @@
+* **Evaluators require an input, an output, and an expected output to compare and score to assess performance**
 * a **turn** is feeding back what the LLM generates back to the LLM
 * a single turn eval is us evaling one pass of an agent (not a full run)
 	* there are no standards on evals
@@ -19,7 +20,7 @@
 	* when generating synthetic data for agent evals, we want typically three categories of use cases
 		* golden use case - perfect expected behavior when given a prompt
 		* secondary cases with unclear prompt
-		* negative cases that should be rejected (can you mop my floor)
+		* negative cases that should be rejected (ex: can you mop my floor)
 * Hill climbing is essentially starting off with an empty run as your baseline, and compare everything after that. if scores improved, keep the change. if not, revert.
 	* one con is that it takes a while
 * Single-turn evals test **one interaction** - a user message and the agent's immediate response
