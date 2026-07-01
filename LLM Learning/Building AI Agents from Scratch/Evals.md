@@ -1,7 +1,7 @@
 * **Evaluators require an input, an output, and an expected output to compare and score to assess performance**
 * a **turn** is feeding back what the LLM generates back to the LLM
 * a single turn eval is us evaling one pass of an agent (not a full run)
-	* there are no standards on evals
+	* there are no globally recognized standards on evals
 * Evals (evaluations) are critical for AI agent development![[Screenshot 2026-06-27 at 5.36.27 PM.png]]
 	* offline evals - ran against a fixed dataset before deployment
 		* similar to tests, run them locally, test specific scenarios
@@ -12,7 +12,7 @@
 * temperature - closer to 0, more deterministic, the higher it is, the more creative/random it is
 * like tracking analytics, we want to take the LLM's output and **MEASURE** it
 	* its a metric, not a boolean like a traditional test (yes or no)
-*  also kind of like snapshot testing
+* also kind of like snapshot testing
 * in an eval you are comparing two things
 * we can use other LLMs for evals, judge our agent's output through them
 * LLMs can be nondeterministic even when using the same seed and temperature = 0 due to kernel-level GPU operations affected by load and infastructure
