@@ -3,7 +3,7 @@
 		* LLM - a language model that can reason and make decisions
 		* actions - the ability to do things (call tools, write files, make API calls)
 		* loop - keeps going until the job is done, not just one response
-	* a chatbot responds once. an agent keeps working.
+	* a chatbot responds once. an agent keeps working until the task is complete
 * an agent can also be described as **A system where an LLM controls the flow**
 	* the LLM is in the driver's seat, deciding what actions to take and when to stop
 * agents are bad at:
