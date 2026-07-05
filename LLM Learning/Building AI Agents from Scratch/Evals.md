@@ -31,4 +31,7 @@
 * Tracing allows us to have analytics on our LLMs
 	* OTEL (Open Telemetry) 
 		* Braintrust, Laminar
-* 
+* What is an **executor**
+	* essentially a runner
+		* it takes data, does "the thing", executes it, and gets the result
+	* single turn executor, multiple turn executor
