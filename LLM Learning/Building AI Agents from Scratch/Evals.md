@@ -41,3 +41,6 @@
 * prompt vs message
 	* prompt is just a single user prompt, messages is an array that represents the conversation where the last message is the latest message between the agent/user
 	* if the last message in the array is type user, the LLM will always respond to that message
+	* if the last message is of type 'assisstant', the LLM will not respond because it's waiting for the user to respond
+* The purpose of creating mock tool definitions in evals is to evaluate if the AI selects the right tool based on descriptions without needing to execute the actual tool
+* 
