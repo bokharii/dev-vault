@@ -43,4 +43,6 @@
 	* if the last message in the array is type user, the LLM will always respond to that message
 	* if the last message is of type 'assisstant', the LLM will not respond because it's waiting for the user to respond
 * The purpose of creating mock tool definitions in evals is to evaluate if the AI selects the right tool based on descriptions without needing to execute the actual tool
-* 
+* The advantage of using a messages array instead of just a prompt is that you can pass in a full conversation history and prime the eval to any conversation state at any point in time
+* Temperature can be set to undefined for certain LLM models in the executor because some models dont support temperature (reasoning models like O1) and undefined fields are omitted from the API call
+* The 'target' field in eval data represents the expected tool/outcome that should be selected when the prompt is passed to the LLM
