@@ -47,4 +47,6 @@
 * Temperature can be set to undefined for certain LLM models in the executor because some models dont support temperature (reasoning models like O1) and undefined fields are omitted from the API call
 * The 'target' field in eval data represents the expected tool/outcome that should be selected when the prompt is passed to the LLM
 * **An evaluator is essentially an assertion - looks at the actual output vs expected output and gives a score**
+	* example: https://github.com/bokharii/ai-agent/blob/master/evals/evaluators.ts
 	* LLM will spit out a JSON object, we can write code against that JSON object that is deterministic
+	* not applicable for multi turn evaluators though, because the LLM returns text. we would need another LLM/human to evaluate that output
