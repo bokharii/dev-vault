@@ -37,3 +37,4 @@
 		* it takes data, does "the thing", executes it, and gets the result
 	* single turn executor, multiple turn executor
 * kind of like TDD, you dont have to have the tool actually developed. you're just testing the description i.e does the agent pick the tool when its necessary based on its description
+	* example: ![[Screenshot 2026-07-05 at 11.55.01 PM.png]]
