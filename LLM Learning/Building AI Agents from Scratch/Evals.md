@@ -40,3 +40,4 @@
 	* example: ![[Screenshot 2026-07-05 at 11.55.01 PM.png]]
 * prompt vs message
 	* prompt is just a single user prompt, messages is an array that represents the conversation where the last message is the latest message between the agent/user
+	* if the last message in the array is type user, the LLM will always respond to that message
