@@ -38,3 +38,5 @@
 	* single turn executor, multiple turn executor
 * kind of like TDD, you dont have to have the tool actually developed. you're just testing the description i.e does the agent pick the tool when its necessary based on its description
 	* example: ![[Screenshot 2026-07-05 at 11.55.01 PM.png]]
+* prompt vs message
+	* prompt is just a single user prompt, messages is an array that represents the conversation where the last message is the latest message between the agent/user
