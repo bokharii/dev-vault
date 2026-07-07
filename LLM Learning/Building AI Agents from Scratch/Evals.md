@@ -54,3 +54,5 @@
 * can also write for LLMs **NOT** picking a tool (negative scenario)
 * The purpose of an evaluator in the context of AI agent testing is to **transform qualitative outputs into quantitative scores**
 * a lot of eval stuff is hyper related to the framework that you are using, but they are all pretty much the same thing (has an executor, data (input, output, expected), scorers)
+* evals are like 40% of making an agent, 30% is improving upon the evals, the other 30% is other stuff like making tools
+	* in other words, evals are very important when building agents
