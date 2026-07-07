@@ -52,3 +52,5 @@
 	* LLM will spit out a JSON object, we can write code against that JSON object that is deterministic
 	* not applicable for multi turn evaluators though, because the LLM returns text. we would need another LLM/human to evaluate that output
 * can also write for LLMs **NOT** picking a tool (negative scenario)
+* The purpose of an evaluator in the context of AI agent testing is to **transform qualitative outputs into quantitative scores**
+* 
