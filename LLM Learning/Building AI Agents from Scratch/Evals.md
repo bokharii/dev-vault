@@ -53,4 +53,4 @@
 	* not applicable for multi turn evaluators though, because the LLM returns text. we would need another LLM/human to evaluate that output
 * can also write for LLMs **NOT** picking a tool (negative scenario)
 * The purpose of an evaluator in the context of AI agent testing is to **transform qualitative outputs into quantitative scores**
-* 
+* a lot of eval stuff is hyper related to the framework that you are using, but they are all pretty much the same thing (has an executor, data (input, output, expected), scorers)
