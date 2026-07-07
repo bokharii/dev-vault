@@ -56,3 +56,4 @@
 * a lot of eval stuff is hyper related to the framework that you are using, but they are all pretty much the same thing (has an executor, data (input, output, expected), scorers)
 * evals are like 40% of making an agent, 30% is improving upon the evals, the other 30% is other stuff like making tools
 	* in other words, evals are very important when building agents
+* the real challenge with agents is knowing how to fine tune for every scenario, whether it be through your evals, different models, context windows, etc.
