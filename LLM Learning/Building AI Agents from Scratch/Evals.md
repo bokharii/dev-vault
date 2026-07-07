@@ -51,3 +51,4 @@
 		* also known as scorer
 	* LLM will spit out a JSON object, we can write code against that JSON object that is deterministic
 	* not applicable for multi turn evaluators though, because the LLM returns text. we would need another LLM/human to evaluate that output
+* can also write for LLMs **NOT** picking a tool (negative scenario)
