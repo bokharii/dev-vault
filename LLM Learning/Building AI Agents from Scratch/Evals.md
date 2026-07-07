@@ -57,3 +57,8 @@
 * evals are like 40% of making an agent, 30% is improving upon the evals, the other 30% is other stuff like making tools
 	* in other words, evals are very important when building agents
 * the real challenge with agents is knowing how to fine tune for every scenario, whether it be through your evals, different models, context windows, etc.
+* Every evaluation framework contains three essential components:
+	* executors (implementations)
+	* data sets (input/output/expected)
+	* scorers (evaluators)
+* When running evaluations, common to use group name (or experiment ID) to group related experiments together for comparing different versions, tracking changes over time, and viewing averages
