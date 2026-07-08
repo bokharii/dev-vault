@@ -62,3 +62,4 @@
 	* data sets (input/output/expected)
 	* scorers (evaluators)
 * When running evaluations, common to use group name (or experiment ID) to group related experiments together for comparing different versions, tracking changes over time, and viewing averages
+* example of evals in laminar ![[Screenshot 2026-07-08 at 12.22.21 AM.png]]
