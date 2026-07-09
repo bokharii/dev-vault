@@ -24,4 +24,6 @@
 * ![[Screenshot 2026-07-09 at 1.41.19 PM.png]]
 	* looks through every number in the set, and as soon as it finds one that is not compatible, it bails
 		* for example, printLowNumber(x) could potentially take in 6 from `Evens | OneThroughFive`, which obviously results in a type error
-	* 
+* Narrowing with type guards
+	* use `instanceof`
+* 
