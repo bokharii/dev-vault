@@ -11,4 +11,6 @@
 
 
 <h4>Union Types</h4>
-* 
+* ![[Screenshot 2026-07-09 at 1.20.30 PM.png]]
+* `let evenOrLowNumber = 5 as Evens | OneThroughFive;`
+* you create sets by creating typings, and you can define types in terms of other types
