@@ -26,4 +26,10 @@
 		* for example, printLowNumber(x) could potentially take in 6 from `Evens | OneThroughFive`, which obviously results in a type error
 * Narrowing with type guards
 	* use `instanceof`
+* Discriminated union
+	* using the first element of the tuple as a discriminator to help TypeScript understand and narrow down the possible types in a union
+* Type guards are techniques like **instanceof** or **typeof** that allow TypeScript to narrow down the type of a variable within a specific code branch
+* When accessing elements in a union type tuple, you can only access properties **common to all types**
+
+#### Intersection Types
 * 
