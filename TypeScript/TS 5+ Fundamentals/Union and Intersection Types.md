@@ -14,3 +14,14 @@
 * ![[Screenshot 2026-07-09 at 1.20.30 PM.png]]
 * `let evenOrLowNumber = 5 as Evens | OneThroughFive;`
 * you create sets by creating typings, and you can define types in terms of other types
+* A **union type** in TypeScript is a type that combines multiple specific types using the | operator.
+* The **cardinality** of a type is the number of members in a set or dimension
+* Numbers are represented in JS as doubles (floating-point numbers)
+* A **type alias** is a way of defining a type using a name and its definition
+* Its a LOT more common to see union types when compared to intersection types
+	* because for instance, functions can have different control flows where they return different things
+		* `flipCoin()` can return `heads | tails`
+* ![[Screenshot 2026-07-09 at 1.41.19 PM.png]]
+	* looks through every number in the set, and as soon as it finds one that is not compatible, it bails
+		* for example, printLowNumber(x) could potentially take in 6 from `Evens | OneThroughFive`, which obviously results in a type error
+	* 
