@@ -32,4 +32,14 @@
 * When accessing elements in a union type tuple, you can only access properties **common to all types**
 
 #### Intersection Types
-* 
+* `let evenAndLowNumber: Evens & OneThroughFive`
+	* won't take 6, because not 1-5
+	* won't take 1, because not even
+	* will take 4, because even AND 1-5
+* Intersection types **&** is everything in BOTH sets
+	* because of that, we can use any of the behavior in either set (for example methods)
+* ![[Screenshot 2026-07-09 at 5.01.02 PM.png]]
+* unlike union type, it can be passed into all of the functions
+* very rare to see intersection types
+	* they are used in Object.assign and object spread operations, where two objects are merged together creating a type that combines characteristics from both original objects
+* Union types have minimal type guarantees and are broadly accepting, while intersection types have comprehensive type guarantees, ensuring all members meet the combined type criteria
