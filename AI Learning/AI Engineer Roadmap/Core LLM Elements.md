@@ -28,3 +28,7 @@
 		* use **high K for creative writing, low K for technical tasks like coding**
 	* **Top-P** sampling AKA **nucleus sampling** is also a technique used to generate text. Its an alternative to Top K that dynamically adjusts the number of tokens considered based on their cumulative probability.
 		* more adaptive than Top K, allows for flexible token selection. Low values (0.1-0.5) produce focused outputs, (0.6-0.9) balance creativity and coherence, and high (0.9-0.99) enable creative diversity
+	* Basically temperature controls the **randomness** of the LLM's word choices. Top-k and Top-p are *filters* that further narrow the pool of eligible words before the AI makes its choice. Kind of like a safety net
+		* set the **base** randomness using temperature
+		* use Top-p or Top-k as **guardrails**
+	* 
