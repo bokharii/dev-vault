@@ -43,4 +43,7 @@
 	* this involves using external tools in a loop until the task is done
 
 
-* **Retrieval-Augmented Generation** (RAG) is an AI approach
+* **Retrieval-Augmented Generation** (RAG) is an AI approach that combines information retrieval with language generation to create more accurate, contextually relevant outputs.
+	* it works by first retrieving relevant data from a knowledge base or external source, then using a language model to generate a response based on that information. it thus enhances the accuracy of generative models by grounding their outputs in real-world data, making RAG ideal for tasks like Q&A, summarization, and chatbots that require reliable, up-to-date information
+	* problem: your company has 500 GB of documents in their server and you're asked to connect an AI assistant like ChatGPT to answer questions about those documents
+		* 
