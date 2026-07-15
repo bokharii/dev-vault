@@ -31,4 +31,6 @@
 	* Basically temperature controls the **randomness** of the LLM's word choices. Top-k and Top-p are *filters* that further narrow the pool of eligible words before the AI makes its choice. Kind of like a safety net
 		* set the **base** randomness using temperature
 		* use Top-p or Top-k as **guardrails**
-	* 
+	* **Repetition Penalties** basically promote diversity in the vocabulary used in LLM's output
+		* frequency penalty and presence penalty
+		* improves overall output quality by **preventing redundant phrasing**
