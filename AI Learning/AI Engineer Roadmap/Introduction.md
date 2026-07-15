@@ -1,0 +1,2 @@
+* AI engineering is the process of designing and implementing AI systems using pre-trained models and existing AI tools to solve practical problems. AI Engineers focus on applying AI in real-world scenarios, improving user experiences, and automating tasks, without developing new models from scratch.
+* An AI engineer uses pre-trained models and existing AI tools to improve user experiences. They focus on applying AI in practical ways, without building models from scratch. On the other hand, ML engineer/AI researchers focus on creating new models or developing AI theory.
