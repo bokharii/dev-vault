@@ -46,4 +46,9 @@
 * **Retrieval-Augmented Generation** (RAG) is an AI approach that combines information retrieval with language generation to create more accurate, contextually relevant outputs.
 	* it works by first retrieving relevant data from a knowledge base or external source, then using a language model to generate a response based on that information. it thus enhances the accuracy of generative models by grounding their outputs in real-world data, making RAG ideal for tasks like Q&A, summarization, and chatbots that require reliable, up-to-date information
 	* problem: your company has 500 GB of documents in their server and you're asked to connect an AI assistant like ChatGPT to answer questions about those documents
-		* 
+		* first idea - upload the files to the chatbot. but the chatbot often times has a limit, and 500 GB is a lot. so you need a way to allow the AI to search, read, and understand the entire files
+		* traditionally two methods to handle this
+			* search by keyword/relevance - very inefficient because we have to go through all the documents
+			* pre-process by summarizing the data, but can be very inaccurate
+		* **RAG** can be broken down into 3 steps:
+			* **Retrieval** - 
