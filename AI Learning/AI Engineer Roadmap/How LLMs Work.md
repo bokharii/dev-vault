@@ -26,4 +26,15 @@
 	* **Inference is the AI model actively functioning**
 	* for example, a self-driving car recognizing a stop sign on a road its never been on before. it uses its **learned knowledge to make a decision in real-time**
 
-* 
+* **Vector Databases** are specialized systems designed to store, index, and retrieve high-dimensional vectors, often used as embeddings that represent data like text, images, or audio
+	* unlike traditional DBs that handle structured data, vector DBs **excel at managing unstructured data by enabling fast similarity searches**, where vectors are compared to find those that are most similar to a query
+	* thus Vector DBs are essential for tasks like semantic search, recommendation systems, and content discovery, where **understanding relationships between items is crucial**
+	* Vector DBs use indexing techniques such as approximate nearest neighbor (ANN) search to efficiently handle large datasets, ensuring quick and accurate retrieval even at scale
+* Relational Databases vs Vector Databases
+	* For example, storing an image:
+		* relational database can store the binary data of the image, metadata about the picture (data created, file format), manually added tags that describe the image
+		* how do we query for images that are similar semantically though? for example, images that have cars or food
+		* This brings up the **Semantic gap**, which is the disconnect between how humans naturally understand meaning (context, intent, emotion) and how technical systems like AI or databases process data
+			* basically the **gap between what something represents to a human vs machine**
+		* This is where Vector DBs come in, representing data as mathematical vector embeddings
+			* created through **embedding models**, such as Clip for images, GloVe for text
