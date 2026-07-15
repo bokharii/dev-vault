@@ -38,3 +38,9 @@
 			* basically the **gap between what something represents to a human vs machine**
 		* This is where Vector DBs come in, representing data as mathematical vector embeddings
 			* created through **embedding models**, such as Clip for images, GloVe for text
+
+* AI Agents refer to autonomous systems/components that can perceive their environment, make decisions, and take actions to achieve specific goals
+	* this involves using external tools in a loop until the task is done
+
+
+* **Retrieval-Augmented Generation** (RAG) is an AI approach
