@@ -59,5 +59,8 @@
 	* however, fine-tuning is often resource-intensive and is not always the best approach. prompt-engineering, RAG, and using smaller, specialized models can sometimes achieve comparable or even better results with less computational overhead and data requirements
 * Prompt Engineering is the art and science of crafting effective prompts (instructions or inputs given to a LLM)
 	* the goal is to design prompts that elicit the best/desired response from the LLM
-	* involves understanding the capabilities of your LLM as well as it's limitations, and progressively iterating your prompts over time with clear, precise, and plentiful input to get the best output
-* 
+	* involves **understanding the capabilities of your LLM as well as it's limitations**, and progressively iterating your prompts over time with **clear, precise, and plentiful** input to get the best output
+* **Context Engineering** is the practice of carefully designing and organizing the information you give to an AI model so it can do its job better.
+	* evolution of prompt engineering, focusing on managing an AI's entire "knowledge substrate" instead of just crafting individual text prompts
+	* essentially preparing everything an AI needs before it starts working (right instructions, examples, background knowledge, and conversation history)
+	* instead of just asking a question and hoping for the best, you build the perfect "environment" of information around the AI and guide it to success
