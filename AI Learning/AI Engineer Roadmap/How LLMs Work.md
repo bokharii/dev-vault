@@ -51,4 +51,6 @@
 			* search by keyword/relevance - very inefficient because we have to go through all the documents
 			* pre-process by summarizing the data, but can be very inaccurate
 		* **RAG** can be broken down into 3 steps:
-			* **Retrieval** - 
+			* **Retrieval** - create a word embedding for the chatbot question for example "Can you tell me about last year's Service Agreement with KodeKloud?" is transformed into an embedding which is then compared against the embedding of the documents **AKA Semantic Search** so instead of just a regular lookup, we are comparing the embeddings and their semantic meanings of what we have stored in the DB vs the embedding of what is being requested
+			* **Augmentation** - the process where the retrieved data is **injected into the prompt** at runtime. essentially gives the model real-time up-to-date information that it can use
+			* **Generation** - the step where the AI assistant generates the response given the semantic relevant data retrieved from the vector database
