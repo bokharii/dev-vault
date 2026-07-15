@@ -1,4 +1,4 @@
-https://www.youtube.com/watch?v=zjkBMFhNj_g&list=PLAqhIrjkxbuW9U8-vZ_s_cjKPT_FqRStI
+ghttps://www.youtube.com/watch?v=zjkBMFhNj_g&list=PLAqhIrjkxbuW9U8-vZ_s_cjKPT_FqRStI
 
 * a LLM (large language model) is essentially just 2 files
 	* a parameter file (weights file)
