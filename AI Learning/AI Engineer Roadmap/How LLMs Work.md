@@ -1,5 +1,5 @@
 * LLMs are sophisticated AI systems trained amount of vast amounts of text data gathered from the internet to understand, generate, and manipulate human language.
-	* They operate by learning statistical relationships between words and phrases, enabling them to predict the next word in a sequence of generate coherent text based on a given prompt.
+	* They operate by learning statistical relationships between words and phrases, enabling them to **predict the next word in a sequence of generate coherent text based on a given prompt**.
 	* Achieved through deep neural networks, primarily using a transformer architecture
 * AI vs AGI
 	* AI refers to systems designed to perform specific tasks by mimicking aspects of human intelligence. Also known as "narrow" AI, they excel in specific areas such as image classification but lack broader cognitive abilities
@@ -54,3 +54,10 @@
 			* **Retrieval** - create a word embedding for the chatbot question for example "Can you tell me about last year's Service Agreement with KodeKloud?" is transformed into an embedding which is then compared against the embedding of the documents **AKA Semantic Search** so instead of just a regular lookup, we are comparing the embeddings and their semantic meanings of what we have stored in the DB vs the embedding of what is being requested
 			* **Augmentation** - the process where the retrieved data is **injected into the prompt** at runtime. essentially gives the model real-time up-to-date information that it can use
 			* **Generation** - the step where the AI assistant generates the response given the semantic relevant data retrieved from the vector database
+
+* Fine-tuning is when you take a **pre-trained** LLM and further train it on a **smaller, task specific** dataset. This results in the LLM to perform better on a particular task or area of expertise.
+	* however, fine-tuning is often resource-intensive and is not always the best approach. prompt-engineering, RAG, and using smaller, specialized models can sometimes achieve comparable or even better results with less computational overhead and data requirements
+* Prompt Engineering is the art and science of crafting effective prompts (instructions or inputs given to a LLM)
+	* the goal is to design prompts that elicit the best/desired response from the LLM
+	* involves understanding the capabilities of your LLM as well as it's limitations, and progressively iterating your prompts over time with clear, precise, and plentiful input to get the best output
+* 
