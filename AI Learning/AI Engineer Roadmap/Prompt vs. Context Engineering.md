@@ -7,3 +7,4 @@
 	* enhances the LLM's ability to handle complex queries and generate more accurate and contextually relevant responses
 * **RAG** allows for the model to inject relevant, up-to-date information into its responses.
 	* **Dynamic filters** are techniques that selectively filter the information retrieved for RAG, ensuring that the LLM receives the most accurate context based on the specific query and user
+* **Context Compaction**
