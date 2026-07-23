@@ -1,0 +1,1 @@
+* python program that emails me the latest in AI news every morning, pull from different sources maybe techcrunch ai, verge ai
